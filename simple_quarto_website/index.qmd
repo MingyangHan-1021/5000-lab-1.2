@@ -1,0 +1,126 @@
+---
+title: "simple_quarto_website"
+author: "Mingyang Han"
+bibliography: reference.bib
+toc: true
+toc-depth: 3
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+ 
+# about me (h1)
+
+## about myself (h2)
+
+I studied Computer Science and Information at Xi'an Jiaotong-Liverpool University from 2021 to 2023. In the autumn semester of 2023, I transferred to the University of Liverpool and obtained a Bachelor's degree in Computer Science in July 2025. This autumn, I came to Georgetown University in the United States and enrolled in the DSAN program. Since I was a child, I have been fascinated by data and have been eager to explore and solve complex problems in the real world through data science and artificial intelligence methods.
+
+### Technical Implementation Details (h3)
+
+i come from China and i love my country
+
+
+
+
+
+
+
+::: {.columns}
+::: {.column width="50%"}
+**Leo Messi**
+
+Lionel Messi, often considered the greatest footballer of all time, i think he is the GOAT of football.
+
+- 10 La Liga Champion
+- 7 Copa del Rey Winner
+- 4 UEFA Champions League Winner
+- 3 FIFA Club World Cup Winner
+:::
+
+::: {.column width="50%"}
+**C.Ronaldo**
+
+a good shooter
+
+- Manchester United
+- Real Madrid
+- Juventus 
+- Manchester United
+:::
+:::
+
+
+Linear regression : $y = \beta_0 + \beta_1x + \epsilon$
+
+Normal distribution: 
+$$
+f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+$$
+
+## Data science skills
+
+| Category | Sub-category | Specific Skills |
+|----------|-------------|-----------------|
+| **Technical Core** | Programming & Development | Programming Languages, Version Control/Git, Databases and SQL |
+| | Data Management & Engineering | Data Manipulation and Cleaning, Big Data Tools, Data Visualization |
+| **Analytical & Quantitative** | Statistical Foundation | Statistical Analysis and Mathematics, Machine Learning |
+| | Advanced Problem-Solving | Problem-Solving & Creative thinking, Ethical Considerations |
+| **Domain & Business** | Specialized Expertise | Domain Expertise, Continuous Learning |
+| | Soft Skills | Communication Skills, Collaboration & Teamwork |
+
+I love data science[^1].
+
+[^1]: just a test
+
+
+i love DSAN5000 [@Neagu2024BOOKR]
+
+::: {#refs}
+:::
+
+
+
+
+## my interest
+:::{.figure}
+![Mingyang Han - my photo](images/Mingyang-Han.png){width=50%}
+:::
+
+
+
+:::{.figure}
+![My favorite game character](images/WechatIMG317.jpeg){width=50%}
+:::
+
+:::{.video}
+<video width="80%" controls>
+  <source src="images/mov_bbb.mp4" type="video/mp4">
+</video>
+a test
+
+
+
+## Messi's career
+
+```{mermaid}
+---
+fig-cap: "A Mermaid diagram"
+code-fold: false
+---
+flowchart LR
+    A[FC Barcelona] --> B[Paris Saint-Germain]
+    B --> C[Inter Miami CF]
+    
+    style A fill:#e1f5fe
+    style B fill:#fff3e0  
+    style C fill:#f1f8e9
+```
+
+
+## my opinion
+
+> "Messi is the greatest of all time of football"  
+> — myself
+
+just a test of quote.

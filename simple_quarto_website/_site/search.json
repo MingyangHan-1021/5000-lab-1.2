@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "about.html#is-ah2",
+    "href": "about.html#is-ah2",
+    "title": "About",
+    "section": "is a(h2)",
+    "text": "is a(h2)\n\nGood course and james is an outstanding professor (h3)\n\nimport matplotlib.pyplot as plt\n\n\nx = [1, 2, 3, 4, 5]\ny = [6, 7, 8, 9, 10]\n\n\nplt.plot(x, y)\nplt.title('simple graph ')\nplt.xlabel('X ')\nplt.ylabel('Y ')\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#about-myself-h2",
+    "href": "index.html#about-myself-h2",
+    "title": "simple_quarto_website",
+    "section": "about myself (h2)",
+    "text": "about myself (h2)\nI studied Computer Science and Information at Xi’an Jiaotong-Liverpool University from 2021 to 2023. In the autumn semester of 2023, I transferred to the University of Liverpool and obtained a Bachelor’s degree in Computer Science in July 2025. This autumn, I came to Georgetown University in the United States and enrolled in the DSAN program. Since I was a child, I have been fascinated by data and have been eager to explore and solve complex problems in the real world through data science and artificial intelligence methods.\n\nTechnical Implementation Details (h3)\ni come from China and i love my country\n\n\nLeo Messi\nLionel Messi, often considered the greatest footballer of all time, i think he is the GOAT of football.\n\n10 La Liga Champion\n7 Copa del Rey Winner\n4 UEFA Champions League Winner\n3 FIFA Club World Cup Winner\n\n\nC.Ronaldo\na good shooter\n\nManchester United\nReal Madrid\nJuventus\nManchester United\n\n\n\nLinear regression : \\(y = \\beta_0 + \\beta_1x + \\epsilon\\)\nNormal distribution: \\[\nf(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}\n\\]"
+  },
+  {
+    "objectID": "index.html#data-science-skills",
+    "href": "index.html#data-science-skills",
+    "title": "simple_quarto_website",
+    "section": "Data science skills",
+    "text": "Data science skills\n\n\n\n\n\n\n\n\nCategory\nSub-category\nSpecific Skills\n\n\n\n\nTechnical Core\nProgramming & Development\nProgramming Languages, Version Control/Git, Databases and SQL\n\n\n\nData Management & Engineering\nData Manipulation and Cleaning, Big Data Tools, Data Visualization\n\n\nAnalytical & Quantitative\nStatistical Foundation\nStatistical Analysis and Mathematics, Machine Learning\n\n\n\nAdvanced Problem-Solving\nProblem-Solving & Creative thinking, Ethical Considerations\n\n\nDomain & Business\nSpecialized Expertise\nDomain Expertise, Continuous Learning\n\n\n\nSoft Skills\nCommunication Skills, Collaboration & Teamwork\n\n\n\nI love data science1.\ni love DSAN5000 (Neagu 2024)\n\n\nNeagu, Gabriel. 2024. “BOOK REVIEW - Data Science and Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data.” Studies in Informatics and Control. https://api.semanticscholar.org/CorpusID:60102050."
+  },
+  {
+    "objectID": "index.html#my-interest",
+    "href": "index.html#my-interest",
+    "title": "simple_quarto_website",
+    "section": "my interest",
+    "text": "my interest\n\n\n\n\nMingyang Han - my photo\n\n\n\n\n\n\n\nMy favorite game character\n\n\n\n\n\n\n\na test\n\nMessi’s career\n\n\n\n\n\n---\nfig-cap: \"A Mermaid diagram\"\ncode-fold: false\n---\nflowchart LR\n    A[FC Barcelona] --&gt; B[Paris Saint-Germain]\n    B --&gt; C[Inter Miami CF]\n    \n    style A fill:#e1f5fe\n    style B fill:#fff3e0  \n    style C fill:#f1f8e9\n\n\n\n\n\n\n\n\nmy opinion\n\n“Messi is the greatest of all time of football”\n— myself\n\njust a test of quote."
+  },
+  {
+    "objectID": "index.html#messis-career",
+    "href": "index.html#messis-career",
+    "title": "simple_quarto_website",
+    "section": "Messi’s career",
+    "text": "Messi’s career\n\n\n\n\n\n---\nfig-cap: \"A Mermaid diagram\"\ncode-fold: false\n---\nflowchart LR\n    A[FC Barcelona] --&gt; B[Paris Saint-Germain]\n    B --&gt; C[Inter Miami CF]\n    \n    style A fill:#e1f5fe\n    style B fill:#fff3e0  \n    style C fill:#f1f8e9"
+  },
+  {
+    "objectID": "index.html#my-opinion",
+    "href": "index.html#my-opinion",
+    "title": "simple_quarto_website",
+    "section": "my opinion",
+    "text": "my opinion\n\n“Messi is the greatest of all time of football”\n— myself\n\njust a test of quote."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\njust a test↩︎"
+  },
+  {
+    "objectID": "slides/slides.html",
+    "href": "slides/slides.html",
+    "title": "Data Science Presentation",
+    "section": "",
+    "text": "I am interested in data science since my undergraduate studies. According to recent research[@Ellis2023ANE], the field is rapidly evolving.\n\n\n\nMy Photo"
+  },
+  {
+    "objectID": "slides/slides.html#academic-background",
+    "href": "slides/slides.html#academic-background",
+    "title": "Data Science Presentation",
+    "section": "",
+    "text": "I am interested in data science since my undergraduate studies. According to recent research[@Ellis2023ANE], the field is rapidly evolving.\n\n\n\nMy Photo"
+  },
+  {
+    "objectID": "slides/slides.html#basketball",
+    "href": "slides/slides.html#basketball",
+    "title": "Data Science Presentation",
+    "section": "basketball",
+    "text": "basketball\n\nCurry won the NBA championship in 2015.\nCurry won the NBA championship in 2017，2018，2022.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.figure(figsize=(10, 6))\nplt.plot(x, y, 'b-', linewidth=2, label='Sine Wave')\nplt.title('Mathematical Function Visualization')\nplt.xlabel('X values')\nplt.ylabel('Y values')\nplt.grid(True, alpha=0.3)\nplt.legend()\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#leo-messi",
+    "href": "slides/slides.html#leo-messi",
+    "title": "Data Science Presentation",
+    "section": "leo messi",
+    "text": "leo messi\n\n\n\nleo\n\n\n\n“leo messi is the GOAT of football” - myself"
+  },
+  {
+    "objectID": "slides/slides.html#references",
+    "href": "slides/slides.html#references",
+    "title": "Data Science Presentation",
+    "section": "References",
+    "text": "References"
+  }
+]
