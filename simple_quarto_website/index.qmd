@@ -24,8 +24,6 @@ i come from China and i love my country
 
 
 
-
-
 ::: {.columns}
 ::: {.column width="50%"}
 **Leo Messi**
@@ -53,10 +51,13 @@ a good shooter
 
 Linear regression : $y = \beta_0 + \beta_1x + \epsilon$
 
-Normal distribution: 
+Normal distribution:    
 $$
 f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
 $$
+
+> **Note:** Inserting formulas was also challenging. I consulted AI for assistance to help me modify the structure of this formula.
+
 
 ## Data science skills
 
@@ -90,7 +91,7 @@ i love DSAN5000 [@Neagu2024BOOKR]
 
 
 :::{.figure}
-![My favorite game character](images/WechatIMG317.jpeg){width=50%}
+![My favorite sportstar](images/WechatIMG317.jpeg){width=50%}
 :::
 
 :::{.video}
@@ -117,6 +118,7 @@ flowchart LR
     style C fill:#f1f8e9
 ```
 
+> **Note:** I consulted AI to correctly structure the code block, include the figure caption, set code folding, and apply node styles. 
 
 ## my opinion
 

@@ -25,7 +25,7 @@
     "href": "index.html#about-myself-h2",
     "title": "simple_quarto_website",
     "section": "about myself (h2)",
-    "text": "about myself (h2)\nI studied Computer Science and Information at Xi’an Jiaotong-Liverpool University from 2021 to 2023. In the autumn semester of 2023, I transferred to the University of Liverpool and obtained a Bachelor’s degree in Computer Science in July 2025. This autumn, I came to Georgetown University in the United States and enrolled in the DSAN program. Since I was a child, I have been fascinated by data and have been eager to explore and solve complex problems in the real world through data science and artificial intelligence methods.\n\nTechnical Implementation Details (h3)\ni come from China and i love my country\n\n\nLeo Messi\nLionel Messi, often considered the greatest footballer of all time, i think he is the GOAT of football.\n\n10 La Liga Champion\n7 Copa del Rey Winner\n4 UEFA Champions League Winner\n3 FIFA Club World Cup Winner\n\n\nC.Ronaldo\na good shooter\n\nManchester United\nReal Madrid\nJuventus\nManchester United\n\n\n\nLinear regression : \\(y = \\beta_0 + \\beta_1x + \\epsilon\\)\nNormal distribution: \\[\nf(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}\n\\]"
+    "text": "about myself (h2)\nI studied Computer Science and Information at Xi’an Jiaotong-Liverpool University from 2021 to 2023. In the autumn semester of 2023, I transferred to the University of Liverpool and obtained a Bachelor’s degree in Computer Science in July 2025. This autumn, I came to Georgetown University in the United States and enrolled in the DSAN program. Since I was a child, I have been fascinated by data and have been eager to explore and solve complex problems in the real world through data science and artificial intelligence methods.\n\nTechnical Implementation Details (h3)\ni come from China and i love my country\n\n\nLeo Messi\nLionel Messi, often considered the greatest footballer of all time, i think he is the GOAT of football.\n\n10 La Liga Champion\n7 Copa del Rey Winner\n4 UEFA Champions League Winner\n3 FIFA Club World Cup Winner\n\n\nC.Ronaldo\na good shooter\n\nManchester United\nReal Madrid\nJuventus\nManchester United\n\n\n\nLinear regression : \\(y = \\beta_0 + \\beta_1x + \\epsilon\\)\nNormal distribution:\n\\[\nf(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}\n\\]\n\nNote: Inserting formulas was also challenging. I consulted AI for assistance to help me modify the structure of this formula."
   },
   {
     "objectID": "index.html#data-science-skills",
@@ -39,14 +39,14 @@
     "href": "index.html#my-interest",
     "title": "simple_quarto_website",
     "section": "my interest",
-    "text": "my interest\n\n\n\n\nMingyang Han - my photo\n\n\n\n\n\n\n\nMy favorite game character\n\n\n\n\n\n\n\na test\n\nMessi’s career\n\n\n\n\n\n---\nfig-cap: \"A Mermaid diagram\"\ncode-fold: false\n---\nflowchart LR\n    A[FC Barcelona] --&gt; B[Paris Saint-Germain]\n    B --&gt; C[Inter Miami CF]\n    \n    style A fill:#e1f5fe\n    style B fill:#fff3e0  \n    style C fill:#f1f8e9\n\n\n\n\n\n\n\n\nmy opinion\n\n“Messi is the greatest of all time of football”\n— myself\n\njust a test of quote."
+    "text": "my interest\n\n\n\n\nMingyang Han - my photo\n\n\n\n\n\n\n\nMy favorite sportstar\n\n\n\n\n\n\n\na test\n\nMessi’s career\n\n\n\n\n\n---\nfig-cap: \"A Mermaid diagram\"\ncode-fold: false\n---\nflowchart LR\n    A[FC Barcelona] --&gt; B[Paris Saint-Germain]\n    B --&gt; C[Inter Miami CF]\n    \n    style A fill:#e1f5fe\n    style B fill:#fff3e0  \n    style C fill:#f1f8e9\n\n\n\n\n\n\n\nNote: I consulted AI to correctly structure the code block, include the figure caption, set code folding, and apply node styles.\n\n\n\nmy opinion\n\n“Messi is the greatest of all time of football”\n— myself\n\njust a test of quote."
   },
   {
     "objectID": "index.html#messis-career",
     "href": "index.html#messis-career",
     "title": "simple_quarto_website",
     "section": "Messi’s career",
-    "text": "Messi’s career\n\n\n\n\n\n---\nfig-cap: \"A Mermaid diagram\"\ncode-fold: false\n---\nflowchart LR\n    A[FC Barcelona] --&gt; B[Paris Saint-Germain]\n    B --&gt; C[Inter Miami CF]\n    \n    style A fill:#e1f5fe\n    style B fill:#fff3e0  \n    style C fill:#f1f8e9"
+    "text": "Messi’s career\n\n\n\n\n\n---\nfig-cap: \"A Mermaid diagram\"\ncode-fold: false\n---\nflowchart LR\n    A[FC Barcelona] --&gt; B[Paris Saint-Germain]\n    B --&gt; C[Inter Miami CF]\n    \n    style A fill:#e1f5fe\n    style B fill:#fff3e0  \n    style C fill:#f1f8e9\n\n\n\n\n\n\n\nNote: I consulted AI to correctly structure the code block, include the figure caption, set code folding, and apply node styles."
   },
   {
     "objectID": "index.html#my-opinion",
@@ -67,21 +67,21 @@
     "href": "slides/slides.html",
     "title": "Data Science Presentation",
     "section": "",
-    "text": "I am interested in data science since my undergraduate studies. According to recent research[@Ellis2023ANE], the field is rapidly evolving.\n\n\n\nMy Photo"
+    "text": "In this section, I used artificial intelligence. I spent nearly an hour struggling with this part because I didn’t know how to modify the yaml header in the .ipynb file. The method for modifying the YAML header in the .ipynb file is different from that in the .qmd file. In an .ipynb file, the YAML header is not written at the very beginning of the file — instead, it should be placed in a raw cell. Quarto cannot recognize the text that it cannot understand, so the citations cannot be automatically generated."
   },
   {
     "objectID": "slides/slides.html#academic-background",
     "href": "slides/slides.html#academic-background",
     "title": "Data Science Presentation",
-    "section": "",
-    "text": "I am interested in data science since my undergraduate studies. According to recent research[@Ellis2023ANE], the field is rapidly evolving.\n\n\n\nMy Photo"
+    "section": "Academic Background",
+    "text": "Academic Background\nI am interested in data science since my undergraduate studies. According to recent research[@Ellis2023ANE], the field is rapidly evolving.\n\n\n\nMy Photo"
   },
   {
     "objectID": "slides/slides.html#basketball",
     "href": "slides/slides.html#basketball",
     "title": "Data Science Presentation",
     "section": "basketball",
-    "text": "basketball\n\nCurry won the NBA championship in 2015.\nCurry won the NBA championship in 2017，2018，2022.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.figure(figsize=(10, 6))\nplt.plot(x, y, 'b-', linewidth=2, label='Sine Wave')\nplt.title('Mathematical Function Visualization')\nplt.xlabel('X values')\nplt.ylabel('Y values')\nplt.grid(True, alpha=0.3)\nplt.legend()\nplt.show()"
+    "text": "basketball\n\nCurry won the NBA championship in 2015.\nCurry won the NBA championship in 2017，2018，2022.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.title(\"Sine Wave\")\nplt.xlabel(\"x\")\nplt.ylabel(\"y\")\nplt.show()"
   },
   {
     "objectID": "slides/slides.html#leo-messi",
