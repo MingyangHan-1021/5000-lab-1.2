@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Mingyang Han">
 
-<title>slides – simple_quarto_website</title>
+<title>My presentation – simple_quarto_website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -55,7 +56,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -132,6 +153,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../slides/slides.html" aria-current="page"> 
+<span class="menu-text">Slides</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -162,9 +187,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">My presentation</h1>
+</div>
 
 
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mingyang Han </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <p>In this section, I used artificial intelligence. I spent nearly an hour struggling with this part because I didn’t know how to modify the <code>yaml</code> header in the <code>.ipynb</code> file. The method for modifying the YAML header in the <code>.ipynb</code> file is different from that in the <code>.qmd</code> file. In an .ipynb file, the YAML header is not written at the very beginning of the file — instead, it should be placed in a raw cell. Quarto cannot recognize the text that it cannot understand, so the citations cannot be automatically generated.</p>
@@ -172,7 +219,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Data Science Presentation</h1>
 <section id="academic-background" class="level2">
 <h2 class="anchored" data-anchor-id="academic-background">Academic Background</h2>
-<p>I am interested in data science since my undergraduate studies. According to recent research<span class="citation" data-cites="Ellis2023ANE">[@Ellis2023ANE]</span>, the field is rapidly evolving.</p>
+<p>I am interested in data science since my undergraduate studies. According to recent research<span class="citation" data-cites="Ellis2023ANE">(<a href="#ref-Ellis2023ANE" role="doc-biblioref">Ellis and Slade 2023</a>)</span>, the field is rapidly evolving.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Mingyang-Han.png" class="img-fluid figure-img" style="width:50.0%"></p>
@@ -203,7 +250,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="slides_files/figure-html/cell-3-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="slides_files/figure-html/cell-2-output-1.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -229,10 +276,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Ellis2023ANE" class="csl-entry" role="listitem">
+Ellis, Amanda R., and Emily Slade. 2023. <span>“A New Era of Learning: Considerations for ChatGPT as a Tool to Enhance Statistics and Data Science Education.”</span> <em>Journal of Statistics and Data Science Education</em> 31: 128–33. <a href="https://api.semanticscholar.org/CorpusID:259799707">https://api.semanticscholar.org/CorpusID:259799707</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
