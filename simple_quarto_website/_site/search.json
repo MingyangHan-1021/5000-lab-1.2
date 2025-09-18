@@ -63,38 +63,31 @@
     "text": "Footnotes\n\n\njust a test↩︎"
   },
   {
-    "objectID": "slides/slides.html",
-    "href": "slides/slides.html",
-    "title": "My presentation",
-    "section": "",
-    "text": "In this section, I used artificial intelligence. I spent nearly an hour struggling with this part because I didn’t know how to modify the yaml header in the .ipynb file. The method for modifying the YAML header in the .ipynb file is different from that in the .qmd file. In an .ipynb file, the YAML header is not written at the very beginning of the file — instead, it should be placed in a raw cell. Quarto cannot recognize the text that it cannot understand, so the citations cannot be automatically generated."
-  },
-  {
     "objectID": "slides/slides.html#academic-background",
     "href": "slides/slides.html#academic-background",
-    "title": "My presentation",
+    "title": "My test of DSAN5100",
     "section": "Academic Background",
-    "text": "Academic Background\nI am interested in data science since my undergraduate studies. According to recent research(Ellis and Slade 2023), the field is rapidly evolving.\n\n\n\nMy Photo"
+    "text": "Academic Background\nI am interested in data science since my undergraduate studies. According to recent research(Ellis and Slade 2023), the field is rapidly evolving.\n\nMy Photo"
   },
   {
     "objectID": "slides/slides.html#basketball",
     "href": "slides/slides.html#basketball",
-    "title": "My presentation",
+    "title": "My test of DSAN5100",
     "section": "basketball",
-    "text": "basketball\n\nCurry won the NBA championship in 2015.\nCurry won the NBA championship in 2017，2018，2022.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.title(\"Sine Wave\")\nplt.xlabel(\"x\")\nplt.ylabel(\"y\")\nplt.show()"
+    "text": "basketball\nCurry won the NBA championship in 2015.\nCurry won the NBA championship in 2017，2018，2022.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.title(\"Sine Wave\")\nplt.xlabel(\"x\")\nplt.ylabel(\"y\")\nplt.show()"
   },
   {
     "objectID": "slides/slides.html#leo-messi",
     "href": "slides/slides.html#leo-messi",
-    "title": "My presentation",
+    "title": "My test of DSAN5100",
     "section": "leo messi",
-    "text": "leo messi\n\n\n\nleo\n\n\n\n“leo messi is the GOAT of football” - myself"
+    "text": "leo messi\n\nleo\n“leo messi is the GOAT of football” - myself"
   },
   {
     "objectID": "slides/slides.html#references",
     "href": "slides/slides.html#references",
-    "title": "My presentation",
+    "title": "My test of DSAN5100",
     "section": "References",
-    "text": "References"
+    "text": "References\n\n\n\n\n\n\n\nEllis, Amanda R., and Emily Slade. 2023. “A New Era of Learning: Considerations for ChatGPT as a Tool to Enhance Statistics and Data Science Education.” Journal of Statistics and Data Science Education 31: 128–33. https://api.semanticscholar.org/CorpusID:259799707."
   }
 ]
